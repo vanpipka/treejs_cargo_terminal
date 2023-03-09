@@ -1,5 +1,5 @@
 {
-  "name": "cargo_terminal",
+  "name": "solarsystem",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.133.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/config-default": "^2.8.3"
+  }
 }
